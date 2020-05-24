@@ -1,0 +1,44 @@
+# AStyle: http://astyle.sourceforge.net/
+#
+# C/C++ Standard code formatting - Peter Szocs
+
+
+# Allman brackets style
+--style=allman
+
+# 4 spaces indentation
+--indent=spaces=4
+
+# Entire class block is indented (C++)
+--indent-classes
+
+# Entire switch-case block is indented
+--indent-switches
+
+# Indent multi-line defines
+--indent-preproc-define
+
+# Indent comments to corresponding indentation level
+--indent-col1-comments
+
+# Space padding around operators
+--pad-oper
+
+# Space padding between header and parent
+--pad-header
+
+# Remove parent internal padding
+--unpad-paren
+
+# Align pointers & references to variable type (left)
+--align-pointer=type
+--align-reference=type
+
+# One line conditional statement has brackets
+--add-brackets
+
+# Break after logical operators
+--break-after-logical
+
+# Max code length is 80 characters
+--max-code-length=80

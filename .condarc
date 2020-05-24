@@ -1,0 +1,15 @@
+proxy_servers:
+    http: http://proxy.inet.bloomberg.com:81
+    https: http://proxy.inet.bloomberg.com:81
+    'https://bbgithub.dev.bloomberg.com': http://bproxy.tdmz1.bloomberg.com:80
+    'https://artprod.dev.bloomberg.com': http://bproxy.tdmz1.bloomberg.com:80
+
+channels:
+    - https://artprod.dev.bloomberg.com/artifactory/bb-bqnt/oss-conda-packages
+    - https://artprod.dev.bloomberg.com/artifactory/bb-bqnt/conda-repo
+    - https://artprod.dev.bloomberg.com/artifactory/bb-bqnt/prod-conda-repo
+    - conda-forge
+    - defaults
+
+ssl_verify: False
+channel_priority: False

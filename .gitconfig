@@ -1,0 +1,17 @@
+[user]
+	name = Peter Szocs
+	email = pszocs@bloomberg.net
+[core]
+	editor = code
+	autocrlf = input
+	excludesfile = /Users/peter/.gitignore
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+[credential]
+	helper = osxkeychain
+[http "https://bbgithub.dev.bloomberg.com"]
+	proxy = bproxy.tdmz1.bloomberg.com:80
